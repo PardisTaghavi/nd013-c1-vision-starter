@@ -16,5 +16,6 @@ On the second round of training: augemntations are added to simulate blurriness,
 `tensorboard dev upload --logdir 'experiments/reference/pipline2'` ].
 
 Augmentations are visualized in "Explore augmentations.ipynb". it should be noted that in the third round of training normalization is added to augmentations which result showing black images in Explore "augmentations.ipynb". This is due to the fact that normalization map all the pixel values to numbers between 0 and 1.
+`tensorboard dev upload --logdir 'experiments/reference/pipline3'`
 
 
